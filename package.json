@@ -1,0 +1,31 @@
+{
+  "name": "rest-schema-event",
+  "version": "1.0.0",
+  "description": "adding events to rest schema ",
+  "main": "src/index.js",
+  "author": "Zoha Banam <zoha.banam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha ./tests/**/*.test.js --exit",
+    "lint": "cross-env NODE_ENV=test mocha ./tests/lint.js --exit"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pluralize": "^8.0.0",
+    "rest-schema": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "glob": "^7.1.6",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.7.7",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
