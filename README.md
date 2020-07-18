@@ -11,8 +11,11 @@
 # installation
 
 add it to your project with npm
+
 `npm install rest-schema-event`
+
 or with yarn
+
 `yarn add rest-schema-event`
 
 # usage
